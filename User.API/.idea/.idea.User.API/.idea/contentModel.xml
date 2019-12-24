@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\C_supreme\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\C_supreme\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\C_supreme\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\C_supreme\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\C_supreme\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_User.API.-926850045.00" t="ExcludeRecursive" />
+    <e p="D:\Project\jessetalk\docker\Contacts.API" t="IncludeRecursive">
+      <e p="AppSettings.cs" t="Include" />
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Contacts.API.csproj" t="IncludeRecursive" />
+      <e p="Controllers" t="Include">
+        <e p="BaseController.cs" t="Include" />
+        <e p="ContactController.cs" t="Include" />
+      </e>
+      <e p="Data" t="Include">
+        <e p="ContactContext.cs" t="Include" />
+        <e p="IContactApplyRequestRepository.cs" t="Include" />
+        <e p="IContactRepository.cs" t="Include" />
+        <e p="MongoContactApplyRequestRepository.cs" t="Include" />
+        <e p="MongoContactRepository.cs" t="Include" />
+      </e>
+      <e p="Dtos" t="Include">
+        <e p="BaseUserInfo.cs" t="Include" />
+        <e p="UserIdentity.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="Contact.cs" t="Include" />
+        <e p="ContactApplyRequest.cs" t="Include" />
+        <e p="ContactBook.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.1" t="Include">
+            <e p="Contacts.API.AssemblyInfo.cs" t="Include" />
+            <e p="Contacts.API.RazorAssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Services" t="Include">
+        <e p="IUserService.cs" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="wwwroot" t="Include" />
+    </e>
+    <e p="D:\Project\jessetalk\docker\Resilience" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="IHttpClient.cs" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netstandard2.0" t="Include">
+            <e p="Resilience.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Resilience.csproj" t="IncludeRecursive" />
+      <e p="ResilienceHttpClient.cs" t="Include" />
+    </e>
+    <e p="D:\Project\jessetalk\docker\User.API" t="IncludeFlat">
+      <e p="BuidingBlocks" t="Include" />
+      <e p="GetWay.API" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="GetWay.API.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="GetWay.API.AssemblyInfo.cs" t="Include" />
+              <e p="GetWay.API.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Ocelot.json" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="wwwroot" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Tests" t="Include" />
+      <e p="User.API" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="BaseController.cs" t="Include" />
+          <e p="HealthCheckController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
+        </e>
+        <e p="Data" t="Include">
+          <e p="UserContext.cs" t="Include" />
+        </e>
+        <e p="docker-compose.yml" t="Include" />
+        <e p="Dockerfile" t="Include" />
+        <e p="Dtos" t="Include">
+          <e p="UserIdentity.cs" t="Include" />
+        </e>
+        <e p="Entities" t="Include">
+          <e p="ConsulOptions.cs" t="Include" />
+          <e p="DnsEndpoint.cs" t="Include" />
+          <e p="ServiceDisvoveryOptions.cs" t="Include" />
+        </e>
+        <e p="Exceptions" t="Include">
+          <e p="UserOperationException.cs" t="Include" />
+        </e>
+        <e p="Filters" t="Include">
+          <e p="GlobalExceptionFilter.cs" t="Include" />
+          <e p="JsonErrorResponse.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20190928161915_init.cs" t="Include" />
+          <e p="20190928161915_init.Designer.cs" t="Include" />
+          <e p="20191002163019_addUserEntites.cs" t="Include" />
+          <e p="20191002163019_addUserEntites.Designer.cs" t="Include" />
+          <e p="20191215071952_AddUserTags.cs" t="Include" />
+          <e p="20191215071952_AddUserTags.Designer.cs" t="Include" />
+          <e p="UserContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="AppUser.cs" t="Include" />
+          <e p="BPFile.cs" t="Include" />
+          <e p="UserProperty.cs" t="Include" />
+          <e p="UserTag.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="User.API.AssemblyInfo.cs" t="Include" />
+              <e p="User.API.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="User.API.csproj" t="IncludeRecursive" />
+        <e p="wwwroot" t="Include" />
+      </e>
+      <e p="User.API.sln" t="IncludeFlat" />
+      <e p="User.API.Tests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="User.API.Tests.AssemblyInfo.cs" t="Include" />
+              <e p="User.API.Tests.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="User.API.Tests.csproj" t="IncludeRecursive" />
+        <e p="UserControllerTests.cs" t="Include" />
+      </e>
+      <e p="User.Identity" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="Authentication" t="Include">
+          <e p="SmsAuthCodeValidator.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Config.cs" t="Include" />
+        <e p="Entities" t="Include">
+          <e p="ConsulOptions.cs" t="Include" />
+          <e p="DnsEndpoint.cs" t="Include" />
+          <e p="ServiceDisvoveryOptions.cs" t="Include" />
+        </e>
+        <e p="Infrastructure" t="Include">
+          <e p="ResilienceClientFactory.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="User.Identity.AssemblyInfo.cs" t="Include" />
+              <e p="User.Identity.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="IAuthCodeService.cs" t="Include" />
+          <e p="IUserService.cs" t="Include" />
+          <e p="TestAuthCodeService.cs" t="Include" />
+          <e p="UserService.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="tempkey.rsa" t="Include" />
+        <e p="User.Identity.csproj" t="IncludeRecursive" />
+        <e p="wwwroot" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
