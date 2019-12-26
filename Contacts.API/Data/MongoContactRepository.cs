@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Contacts.API.Dtos;
@@ -56,6 +57,28 @@ namespace Contacts.API.Data
             });
             var result = await _contactContext.ContactBooks.UpdateOneAsync(filter, update, null, cancellationToken);
             return result.ModifiedCount == result.MatchedCount;
+        }
+
+        public async Task<List<Models.Contact>> GetContactsAsync(int userId,CancellationToken cancellationToken)
+        {
+            var contactBook = (await _contactContext.ContactBooks.FindAsync(u => u.UserId == userId)).FirstOrDefault();
+            if (contactBook == null)
+            {
+                return new List<Models.Contact>();
+            }
+
+            return contactBook.Contacts;
+        }
+
+        public async Task<bool> TagContactAsync(int userId, int contactId, List<string> tags,
+            CancellationToken cancellationToken)
+        {
+            var filter = Builders<ContactBook>.Filter.And(
+                Builders<ContactBook>.Filter.Eq(u => u.UserId, userId),
+                Builders<ContactBook>.Filter.Eq("Contacts.UserId", contactId));
+            var update = Builders<ContactBook>.Update.Set("Contacts.$.Tags", tags);
+            var result = await _contactContext.ContactBooks.UpdateOneAsync(filter, update, null, cancellationToken);
+            return result.ModifiedCount == result.MatchedCount && result.ModifiedCount == 1;
         }
     }
 }

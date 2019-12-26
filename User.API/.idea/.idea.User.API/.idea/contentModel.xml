@@ -48,6 +48,9 @@
         <e p="IUserService.cs" t="Include" />
       </e>
       <e p="Startup.cs" t="Include" />
+      <e p="ViewModel" t="Include">
+        <e p="TagContactInputViewModel.cs" t="Include" />
+      </e>
       <e p="wwwroot" t="Include" />
     </e>
     <e p="D:\Project\jessetalk\docker\Resilience" t="IncludeRecursive">
