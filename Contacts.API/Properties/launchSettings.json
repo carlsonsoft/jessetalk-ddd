@@ -11,7 +11,7 @@
   "profiles": {
     "Contact.API": {
       "commandName": "Project",
-      "launchBrowser": true,
+      "launchBrowser": false,
       "launchUrl": "api/values",
       "applicationUrl": "http://localhost:4772",
       "environmentVariables": {

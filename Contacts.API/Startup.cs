@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Contacts.API.Data;
+using Contacts.API.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -26,10 +27,11 @@ namespace Contact.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddOptions();
-            services.Configure<AppSettings>(Configuration.GetSection("MongoContactConnectionString"));
+            services.Configure<AppSettings>(Configuration.GetSection("MogoSetting"));
             services.AddSingleton<ContactContext>();
             services.AddSingleton<IContactRepository, MongoContactRepository>();
             services.AddSingleton<IContactApplyRequestRepository, MongoContactApplyRequestRepository>();
+            services.AddSingleton<IUserService, UserService>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 

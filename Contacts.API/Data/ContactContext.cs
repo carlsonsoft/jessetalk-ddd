@@ -12,7 +12,7 @@ namespace Contacts.API.Data
         private IMongoCollection<ContactBook> _collection;
         private AppSettings _appSettings;
 
-        public ContactContext(IOptionsSnapshot<AppSettings> settings)
+        public ContactContext(IOptions<AppSettings> settings)
         {
             _appSettings = settings.Value;
             var client = new MongoClient(_appSettings.MongoContactConnectionString);
